@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-size: 16px;
+}
+
+.bg-gray-200 {
+    background-color: #B1B2B5;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.title-inverse {
+    color: #1E23A1;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    margin: 0 5%;
+    gap: 5%;
+    height: 75vh;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-card {
+
+    max-height: 90%;
+}
+
+.logo-uade {
+    max-height: 8.3vh;
+    background-color: white;
+}
+
+.border-round-8 {
+    box-shadow: rgb(79 75 75 / 43%) 0px 2px 9px 0px;
+    border-radius: 8%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    height: 10vh;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.img-decorativa-1 {
+    background-image: url('/assets/sitio-prof-banner.png');
+    background-size: cover;
+    background-position: center;
+}
+
+h2,
+h3 {
+    display: inline-flex;
+}
+
+.nav {
+    text-align: center;
+    min-height: 15vh;
+    justify-content: space-around;
+    align-content: center;
+}
+
+@media only screen and (max-width: 678px) {
+
+    main,
+    .info,
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .info {
+        gap: 5vh;
+        margin-bottom: 10%;
+    }
+
+    .img-card {
+        max-width: 100%;
+    }
+}
