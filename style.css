@@ -80,7 +80,7 @@ footer {
 }
 
 .img-decorativa-1 {
-    background-image: url('/assets/sitio-prof-banner.png');
+    background-image: url('assets/sitio-prof-banner.png');
     background-size: cover;
     background-position: center;
 }
